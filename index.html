@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Carousel</title>
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+        }
+        body {
+            background-color: orange;
+        }
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .myslides {
+            display: none;
+            max-height: 100%;
+            max-width: 100%;
+        }
+        .topnav {
+    overflow: hidden;
+    background-color: blue;
+}
+a {
+    float: left;
+    color: rgb(228, 224, 232);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover {
+    background-color: aqua;
+    color: blueviolet;
+}
+.active {
+    background-color: greenyellow;
+    color: skyblue;
+}
+h1 {
+    text-align: center;
+}
+
+            
+        
+    </style>
+</head>
+<body>
+    <h1>MY FAVOURITE FRUITS</h1>
+    <div class="carousel-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nRxoCb1zItNLvOxrtSh2Qj5_MVU5tJnI-A&s" class="myslides" height="300" width="300">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/1162px-Banana-Single.jpg" class="myslides" height="300" width="300">
+    <img src="https://media.istockphoto.com/id/184276818/photo/red-apple.jpg?s=612x612&w=0&k=20&c=NvO-bLsG0DJ_7Ii8SSVoKLurzjmV0Qi4eGfn6nW3l5w=" class="myslides" height="300" width="300">
+    </div>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about apple.html">About Apple</a>
+        <a href="about mango.html">About Mango</a>
+    </nav>
+    <div id="apple">
+  <h1>APPLE</h1>
+  <p>
+    <img src="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png" style="width: 280px; height: 280px; float: right; margin-left: 5px; margin-top: -8%;"><p style="text-align: center; width: 300px; height: 280px; margin-left: 42%;">
+    An apple is a popular, round, edible fruit from the Malus domestica tree, known for being sweet, crisp, and packed with
+    fiber, Vitamin C, and antioxidants, eaten fresh or cooked into many dishes like pies, sauces, and cider, with thousands
+    of varieties grown globally for diverse tastes and uses. Botanically, it's a pome, with its edible flesh developing from
+    the flower's receptacle rather than just the ovary.</p>
+  </p>
+
+  
+    </div>
+    <div id="mango">
+        <h1>MANGO</h1>
+        <p>
+            <img src="https://png.pngtree.com/png-vector/20250303/ourmid/pngtree-ripe-mango-fruit-with-leaf-for-healthy-snack-png-image_15699037.png"
+                style="width: 280px; height: 280px; float: right; margin-left: 5px; margin-top: -8%;">
+        <p style="text-align: center; width: 300px; height: 280px; margin-left: 42%;">
+            Mango is a sweet, tropical fruit from the Mangifera indica tree, native to South Asia and widely cultivated in tropical
+            regions. It is known for its sweet, juicy, orange-yellow flesh, and varieties differ in size, shape, and color. The
+            fruit is rich in vitamins A and C, fiber, and various minerals, and it can be eaten fresh, dried, or used in dishes like
+            salsas, chutneys, and curries.</p>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
